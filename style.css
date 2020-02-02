@@ -64,3 +64,8 @@ body{
 		margin-left: 48PX;
 		padding-top: 5PX;
 	}
+	.about{
+		color: grey;
+		text-align: center;
+		text-decoration: bold , italic;
+	}
