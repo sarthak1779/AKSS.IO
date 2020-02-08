@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+       
+        <title>BYSS</title>
+    </head>
+    <body>
+        <style>
+            .btn{
+             font-size:50px;
+background-color:#000000;
+color:white;
+border:none;
+width:90px;
+margin-top:50px;
+padding-top: 0.1px;
+}
+.btn:hover{
+font-size:50px;
+background-color:red;
+color:white;
+border:0;
+width:70px;
+padding-top: 0.1px;
+border: 1px solid yellow;
+}
+div{
+text-align:center;
+border:2px solid grey;
+background-color:#000000;
+height:550px;
+display: inline-block;
+}
+input{
+width:350px;
+height:50px;
+margin-top:20px;
+font-size:30px;
+}
+body{
+  text-align: center;
+}
+
+        </style>
+        <h1>
+          CLACULATOR
+        </h1>
+      <form name="forms" action="#">
+          <div>
+  <input name="label"></input><br>
+<input type="button" class="btn" value="1" onclick="forms.label.value +='1' " >
+<input type="button" class="btn" value="2" onclick="forms.label.value +='2' " >
+<input type="button" class="btn" value="3" onclick="forms.label.value +='3' " >
+<input type="button" class="btn" value="x" onclick="forms.label.value +='*' " >
+<br>
+<input type="button" class="btn" value="4" onclick="forms.label.value +='4' " >
+<input type="button" class="btn" value="5" onclick="forms.label.value +='5' " >
+<input type="button" class="btn" value="6" onclick="forms.label.value +='6' " >
+<input type="button" class="btn" value="/" onclick="forms.label.value +='/' " >
+<br>
+<input type="button" class="btn" value="7" onclick="forms.label.value +='7' " >
+<input type="button" class="btn" value="8" onclick="forms.label.value +='8' " >
+<input type="button" class="btn" value="9" onclick="forms.label.value +='9' " >
+<input type="button" class="btn" value="-" onclick="forms.label.value +='-' " >
+<br>
+<input type="reset" class="btn" value="CE" >
+<input type="button" class="btn" value="+" onclick="forms.label.value +='+' " >
+<input type="button" class="btn" value="0" onclick="forms.label.value +='0' " >
+<input type="button" class="btn" value="=" onclick='forms.label.value = eval(forms.label.value)'>
+
+
+              <br>  
+          </div>
+      </form>  
+    </body>
+</html>
