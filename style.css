@@ -1,8 +1,14 @@
 body{
-		background-color: black;
+		background-image: url(ss.jpg);
+		font-size: 25px;
+		background-size: cover;
 	}
 	img{
-		border: 2px solid white;
+		padding: 0;
+		margin: 0;
+		width: 1330px;
+		border: 2px solid red;
+		
 	}
 	a{
 		background-color: blue;
@@ -69,5 +75,5 @@ body{
 	.about{
 		color: grey;
 		text-align: center;
-		text-decoration: bold , italic;
+		text-decoration: bold;
 	}
