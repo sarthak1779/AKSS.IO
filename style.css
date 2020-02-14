@@ -59,11 +59,15 @@ body{
 
 	}
 	h1{
-		background-color: yellow;
-		color: orange;
-		font-size: 50px;
+		background-color: black;
+		color: blue;
+		font-size: 100px;
 		text-align: center;
 		border: 5px double red;
+		height: 350px;
+		margin-top: 0;
+		padding-top: 150px;
+		margin-bottom: 2px;
 	}
 	#ff{
 		background-color: yellow;
