@@ -1,4 +1,5 @@
 <!--BYSS-->
+
 <!DOCTYPE html>
 <!--BYSS-->
 <html>
@@ -17,7 +18,8 @@
  <!--BYSS--> 
 	<div>
  <!--BYSS-->
-    <blockquote>dfnfnndndnjd<p>CHANNEL<br><br><a href="CHANNEL.html">CLICK HERE TO SEE</a></p><br></blockquote>
+ <p>RIDDLES GAME<br><br><a href="riddle p1.html">CLICK HERE TO PLAY</a><br><br></p><br>
+    <p>CHANNEL<br><br><a href="CHANNEL.html">CLICK HERE TO SEE</a></p><br>
 
   <p>CHROME DINASOUR GAME<br><br><a href="chrome.mp4" download="gameplay of dinasour">CLICK HERE TO DOWNLOAD OR VIEW</a></p><br>   
   <p>SCRATCH PART-1<br><br><a href="part 1 lvl 1.avi">CLICK HERE TO DOWNLOAD</a></p>
