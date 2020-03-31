@@ -5,6 +5,7 @@
 <html>
 <!--BYSS-->
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <!--BYSS-->
 <head>
 <!--BYSS-->
@@ -12,7 +13,7 @@
  <!--BYSS--> 
 </head>
 <!--BYSS-->
-<h1>AKSS.IO(BYSS)</h1>
+<h1 id="main">AKSS.IO(BYSS)</h1>
 <!--BYSS-->
 <body id="body">
  <!--BYSS--> 
@@ -53,9 +54,15 @@
      <p>BYSS STORE<br><br><a href="store.html">CLICK HERE TO SEE</a></p><br>
 
           <p>CSS<br><br><a href="css.html">CLICK HERE TO DOWNLOAD</a></p><br>
+          
 
     <!--BYSS-->
     </div>
+    <div id="chat">
+      <h1 id="chatbox">SPECIAL COMMAND BOX</h1>
+            <input type="text" name="" id="inp"><br><br>
+            <button onclick="uncheck()" id="chatbot">SUBMIT<i class="fa fa-paper-plane-o"></i></button>
+          </div>
     <!--BYSS-->
     <br>
     <!--BYSS-->
@@ -67,7 +74,7 @@
       <!--BYSS-->
     	<label>COMMENT</label><input type="text" name="entry.21270842" required="" maxlength="100"><br><br>
       <!--BYSS-->
-    	<button type="submit" name="submit" class="btn btn-primary" onclick="post()">POST</button>
+    	<button id="btn" type="submit" name="submit" class="btn btn-primary" onclick="post()">POST</button>
     	<h4>$ARTH@K $INGH ALL RIGHTS RESERVED</h4>
       <!--BYSS-->
     </form>
@@ -94,8 +101,10 @@ s0.parentNode.insertBefore(s1,s0);
 function post(){
      alert('posting')
 }
+
 </script>
 <!--End of Tawk.to Script-->
+<script type="text/javascript" src="chat.js"></script>
 <br>
 <br>
 <br>

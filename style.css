@@ -46,7 +46,7 @@ body{
 		margin-left: 31PX;         
 
 	}
-	button{
+	#btn{
 		color: #fff;
     background-color: #337ab7;
     border-color: #2e6da4;
@@ -63,7 +63,7 @@ body{
 		color: #5EBED7;
 
 	}
-	h1{
+	#main{
 		background-color: black;
 		color: blue;
 		font-size: 100px;
@@ -86,3 +86,35 @@ body{
 		text-align: center;
 		text-decoration: bold;
 	}
+	#inp{
+		border-radius: 30px;
+	}
+	#chat{
+		border: 5px solid yellow;
+	}
+	#chatbot {
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+#chatbot:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+#chatbot:active {
+	position:relative;
+	top:1px;
+}
+#chatbox{
+    color: white;
+
+}

@@ -1,0 +1,12 @@
+img{
+	height: 100px;
+	width: 100px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	word-spacing: 50px;
+}
+#label{
+	padding-top: 20px;
+	padding-left: 150px;
+}

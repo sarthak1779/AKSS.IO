@@ -2,13 +2,18 @@
 
 function check() {
  
- var a = document.getElementById('input').value ;   		  
+ var a = document.getElementById('input').value ; 
+
+
 if (a==="MATCH STICK") {
 
             alert('RIGHT');
             window.location.href = "riddle p2.html" ;
+            
     	}else{
-    	alert('WRONG')
+       
+    	alert('WRONG');
+    	
     }
     }
 
@@ -20,7 +25,7 @@ if (a==="10") {
             alert('RIGHT');
             window.location.href = "riddle p3.html" ;
     	}else{
-    	alert('WRONG')
+    	alert('WRONG');
     }
     }
 
