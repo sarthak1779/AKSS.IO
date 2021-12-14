@@ -1,0 +1,139 @@
+<html>
+    <style>
+        html{
+                font-size: 10px;
+            }
+            div{
+                height: 600px;
+                width: 89rem;
+                border: 5px solid red;
+                background-color: rgb(98, 98, 224);
+            }
+            body{
+		font-size: 2.5rem;
+		background: linear-gradient(-45deg , #ee7752 , #e73c7e , #23a6d5 , #23d5ab);
+		background-size: 400% 400%;
+		position: relative;
+		animation: change 10s ease-in-out infinite;
+		height: 100vh;
+		width: 100%;
+	}
+	@keyframes change{
+	 0%{
+	 	background-position:0 50% ;
+	 }
+	 50%{
+	 	background-position:100% 50% ;
+	 }	
+	 100%{
+	 	background-position:0 50% ;
+	 }		
+	}
+            p{
+            
+                color: yellow;
+            }
+            h1{
+                border: 2px solid white;
+                width: 80rem;
+                font-size: 5rem;
+                margin-top: 1.5%; 
+                background-image: linear-gradient(to right, rgb(216, 113, 16), rgb(235, 219, 8));
+                color: rgb(7, 157, 177);
+                           
+            }
+            .btn{
+    background-color: green; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+    
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+input{
+    height: 40px;
+    box-shadow: none;
+    border: none;
+}
+            
+    </style>
+    <head>
+        <title>
+            CC GEN BY SARTHAK1778
+        </title>
+    </head>
+    <body>
+        <center>
+        <div>
+            <h1>
+                CC GEN
+            </h1>
+            <p>
+                Cards You want To Gen
+            </p>
+            <input type="number" id="input">
+            <button class="btn" onclick="gen()">Start Generating</button>
+            
+        </div>
+    </center>
+    </body>
+    <script>
+        function gen(){
+            var a
+            var input = document.getElementById('input').value;
+            for(a=1; a<input; a++){
+                var n1 = Math.random()*9 ;
+                var n2 = Math.random()*9 ;
+                var n3 = Math.random()*9 ;
+                var n4 = Math.random()*9 ;
+                var n5 = Math.random()*9 ;
+                var n6 = Math.random()*9 ;
+                var n7 = Math.random()*9 ;
+                var n8 = Math.random()*9 ;
+                var n9 = Math.random()*9 ;
+                var n10 = Math.random()*9 ;
+                var n11 = Math.random()*9 ;
+
+                var r1 = Math.round(n1) ;
+                var r2 = Math.round(n2) ;
+                var r3 = Math.round(n3) ;
+                var r4 = Math.round(n4) ;
+                var r5 = Math.round(n5) ;
+                var r6 = Math.round(n6) ;
+                var r7 = Math.round(n7) ;
+                var r8 = Math.round(n8) ;
+                var r9 = Math.round(n9) ;
+                var r10 = Math.round(n10) ;
+                var r11 = Math.round(n11) ;
+
+                var n12 = Math.random()*12 ; 
+                var r12 = Math.round(n12) ;
+
+                var n13 = Math.random()*8+2020 ; 
+                var r13 = Math.round(n13) ;
+
+                var n14 = Math.random()*9 ;
+                var n15 = Math.random()*9 ;
+                var n16 = Math.random()*9 ;
+
+                var r14 = Math.round(n14) ;
+                var r15 = Math.round(n15) ;
+                var r16 = Math.round(n16) ;
+
+                document.write("<center>" + r1 + "" + r2 + "" + r3 + "" + r4 + "" + r5 + "" + r6 + "" + r7 + "" + r8 + "" + r9 + "" + r10 + "" + r11 + "" + "|" + r12 + "|" + r13 + "|" + r14 + "" + r15 + "" + r16 + "</center>")
+                document.write("<br>")
+
+
+            }
+        }
+    </script>
+</html>
